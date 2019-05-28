@@ -1,0 +1,45 @@
+.container{
+    width: 480px;
+    margin: 0 auto;
+}
+.header td {
+    font-weight: bold;
+    background: chartreuse;
+}
+td {
+    border: 1px solid #cccccc;
+    height: 40px;
+    text-align: center;
+}
+td:nth-child(2){
+    width: 200px;
+}
+
+td button{
+    height: 40px;
+    width: 100px;
+}
+.wraper, #editpro  {
+    margin-top: 10px;
+    padding: 10px;
+}
+.wraper input, #editpro input{
+    width: 300px;
+    height: 40px;
+}
+#addproduct button, #editpro button {
+    height: 46px;
+    width: 150px;
+}
+
+
+
+
+button:hover{
+    background: #FF0000;
+    color: #FFFFFF;
+}
+button{
+    background: yellow;
+    font-weight: bold;
+}
